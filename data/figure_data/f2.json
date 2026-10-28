@@ -1,0 +1,170 @@
+{
+ "years": [
+  {
+   "year": 2009,
+   "valid_days": 319,
+   "scaled": true,
+   "total": 3625,
+   "below4": 1466,
+   "m4plus": 2159
+  },
+  {
+   "year": 2010,
+   "valid_days": 364,
+   "scaled": true,
+   "total": 6229,
+   "below4": 3468,
+   "m4plus": 2762
+  },
+  {
+   "year": 2011,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 4465,
+   "below4": 2491,
+   "m4plus": 1974
+  },
+  {
+   "year": 2012,
+   "valid_days": 366,
+   "scaled": false,
+   "total": 6618,
+   "below4": 4295,
+   "m4plus": 2323
+  },
+  {
+   "year": 2013,
+   "valid_days": 306,
+   "scaled": true,
+   "total": 4212,
+   "below4": 2457,
+   "m4plus": 1755
+  },
+  {
+   "year": 2014,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 4650,
+   "below4": 2700,
+   "m4plus": 1950
+  },
+  {
+   "year": 2015,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 5285,
+   "below4": 3306,
+   "m4plus": 1979
+  },
+  {
+   "year": 2016,
+   "valid_days": 366,
+   "scaled": false,
+   "total": 5578,
+   "below4": 3701,
+   "m4plus": 1877
+  },
+  {
+   "year": 2017,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 6941,
+   "below4": 4971,
+   "m4plus": 1970
+  },
+  {
+   "year": 2018,
+   "valid_days": 351,
+   "scaled": true,
+   "total": 11058,
+   "below4": 8693,
+   "m4plus": 2365
+  },
+  {
+   "year": 2019,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 11539,
+   "below4": 8497,
+   "m4plus": 3042
+  },
+  {
+   "year": 2020,
+   "valid_days": 366,
+   "scaled": false,
+   "total": 8281,
+   "below4": 5745,
+   "m4plus": 2536
+  },
+  {
+   "year": 2021,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 10460,
+   "below4": 7822,
+   "m4plus": 2638
+  },
+  {
+   "year": 2022,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 10389,
+   "below4": 7997,
+   "m4plus": 2392
+  },
+  {
+   "year": 2023,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 11274,
+   "below4": 8821,
+   "m4plus": 2453
+  },
+  {
+   "year": 2024,
+   "valid_days": 366,
+   "scaled": false,
+   "total": 7481,
+   "below4": 5642,
+   "m4plus": 1839
+  },
+  {
+   "year": 2025,
+   "valid_days": 365,
+   "scaled": false,
+   "total": 18357,
+   "below4": 16462,
+   "m4plus": 1895
+  }
+ ],
+ "period_A": {
+  "total": 5614,
+  "below4": 3670,
+  "m4plus": 1944,
+  "m5plus": 173,
+  "m6plus": 6
+ },
+ "period_B": {
+  "total": 11875,
+  "below4": 9730,
+  "m4plus": 2145,
+  "m5plus": 189,
+  "m6plus": 16
+ },
+ "total_ratio": 2.12,
+ "share_of_rise_below4": 0.968,
+ "m4plus_change": 0.103,
+ "m4plus_min": {
+  "year": 2013,
+  "value": 1755
+ },
+ "m4plus_max": {
+  "year": 2019,
+  "value": 3042
+ },
+ "y2025": {
+  "total": 18357,
+  "m4plus": 1895,
+  "m4plus_rank_lowest": 4
+ }
+}

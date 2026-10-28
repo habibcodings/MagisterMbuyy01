@@ -1,0 +1,1140 @@
+{
+ "months": [
+  {
+   "month": "2008-11",
+   "value": 111,
+   "scaled": true
+  },
+  {
+   "month": "2008-12",
+   "value": 52,
+   "scaled": true
+  },
+  {
+   "month": "2009-01",
+   "value": 78,
+   "scaled": true
+  },
+  {
+   "month": "2009-02",
+   "value": 235,
+   "scaled": true
+  },
+  {
+   "month": "2009-03",
+   "value": 178,
+   "scaled": false
+  },
+  {
+   "month": "2009-04",
+   "value": 178,
+   "scaled": false
+  },
+  {
+   "month": "2009-05",
+   "value": 134,
+   "scaled": false
+  },
+  {
+   "month": "2009-06",
+   "value": 110,
+   "scaled": false
+  },
+  {
+   "month": "2009-07",
+   "value": 132,
+   "scaled": true
+  },
+  {
+   "month": "2009-08",
+   "value": 244,
+   "scaled": true
+  },
+  {
+   "month": "2009-09",
+   "value": null,
+   "scaled": false
+  },
+  {
+   "month": "2009-10",
+   "value": 228,
+   "scaled": false
+  },
+  {
+   "month": "2009-11",
+   "value": 213,
+   "scaled": false
+  },
+  {
+   "month": "2009-12",
+   "value": 233,
+   "scaled": false
+  },
+  {
+   "month": "2010-01",
+   "value": 193,
+   "scaled": false
+  },
+  {
+   "month": "2010-02",
+   "value": 165,
+   "scaled": true
+  },
+  {
+   "month": "2010-03",
+   "value": 209,
+   "scaled": false
+  },
+  {
+   "month": "2010-04",
+   "value": 286,
+   "scaled": false
+  },
+  {
+   "month": "2010-05",
+   "value": 222,
+   "scaled": false
+  },
+  {
+   "month": "2010-06",
+   "value": 261,
+   "scaled": false
+  },
+  {
+   "month": "2010-07",
+   "value": 203,
+   "scaled": false
+  },
+  {
+   "month": "2010-08",
+   "value": 215,
+   "scaled": false
+  },
+  {
+   "month": "2010-09",
+   "value": 223,
+   "scaled": false
+  },
+  {
+   "month": "2010-10",
+   "value": 337,
+   "scaled": false
+  },
+  {
+   "month": "2010-11",
+   "value": 250,
+   "scaled": false
+  },
+  {
+   "month": "2010-12",
+   "value": 196,
+   "scaled": false
+  },
+  {
+   "month": "2011-01",
+   "value": 183,
+   "scaled": false
+  },
+  {
+   "month": "2011-02",
+   "value": 170,
+   "scaled": false
+  },
+  {
+   "month": "2011-03",
+   "value": 158,
+   "scaled": false
+  },
+  {
+   "month": "2011-04",
+   "value": 191,
+   "scaled": false
+  },
+  {
+   "month": "2011-05",
+   "value": 166,
+   "scaled": false
+  },
+  {
+   "month": "2011-06",
+   "value": 166,
+   "scaled": false
+  },
+  {
+   "month": "2011-07",
+   "value": 124,
+   "scaled": false
+  },
+  {
+   "month": "2011-08",
+   "value": 145,
+   "scaled": false
+  },
+  {
+   "month": "2011-09",
+   "value": 110,
+   "scaled": false
+  },
+  {
+   "month": "2011-10",
+   "value": 191,
+   "scaled": false
+  },
+  {
+   "month": "2011-11",
+   "value": 190,
+   "scaled": false
+  },
+  {
+   "month": "2011-12",
+   "value": 180,
+   "scaled": false
+  },
+  {
+   "month": "2012-01",
+   "value": 196,
+   "scaled": false
+  },
+  {
+   "month": "2012-02",
+   "value": 190,
+   "scaled": false
+  },
+  {
+   "month": "2012-03",
+   "value": 201,
+   "scaled": false
+  },
+  {
+   "month": "2012-04",
+   "value": 211,
+   "scaled": false
+  },
+  {
+   "month": "2012-05",
+   "value": 175,
+   "scaled": false
+  },
+  {
+   "month": "2012-06",
+   "value": 178,
+   "scaled": false
+  },
+  {
+   "month": "2012-07",
+   "value": 162,
+   "scaled": false
+  },
+  {
+   "month": "2012-08",
+   "value": 167,
+   "scaled": false
+  },
+  {
+   "month": "2012-09",
+   "value": 259,
+   "scaled": false
+  },
+  {
+   "month": "2012-10",
+   "value": 224,
+   "scaled": false
+  },
+  {
+   "month": "2012-11",
+   "value": 168,
+   "scaled": false
+  },
+  {
+   "month": "2012-12",
+   "value": 192,
+   "scaled": false
+  },
+  {
+   "month": "2013-01",
+   "value": 149,
+   "scaled": true
+  },
+  {
+   "month": "2013-02",
+   "value": 161,
+   "scaled": false
+  },
+  {
+   "month": "2013-03",
+   "value": 144,
+   "scaled": false
+  },
+  {
+   "month": "2013-04",
+   "value": 139,
+   "scaled": false
+  },
+  {
+   "month": "2013-05",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2013-06",
+   "value": 144,
+   "scaled": false
+  },
+  {
+   "month": "2013-07",
+   "value": null,
+   "scaled": false
+  },
+  {
+   "month": "2013-08",
+   "value": null,
+   "scaled": false
+  },
+  {
+   "month": "2013-09",
+   "value": 138,
+   "scaled": false
+  },
+  {
+   "month": "2013-10",
+   "value": 150,
+   "scaled": false
+  },
+  {
+   "month": "2013-11",
+   "value": 148,
+   "scaled": false
+  },
+  {
+   "month": "2013-12",
+   "value": 154,
+   "scaled": false
+  },
+  {
+   "month": "2014-01",
+   "value": 154,
+   "scaled": false
+  },
+  {
+   "month": "2014-02",
+   "value": 131,
+   "scaled": false
+  },
+  {
+   "month": "2014-03",
+   "value": 183,
+   "scaled": false
+  },
+  {
+   "month": "2014-04",
+   "value": 144,
+   "scaled": false
+  },
+  {
+   "month": "2014-05",
+   "value": 187,
+   "scaled": false
+  },
+  {
+   "month": "2014-06",
+   "value": 143,
+   "scaled": false
+  },
+  {
+   "month": "2014-07",
+   "value": 119,
+   "scaled": false
+  },
+  {
+   "month": "2014-08",
+   "value": 133,
+   "scaled": false
+  },
+  {
+   "month": "2014-09",
+   "value": 148,
+   "scaled": false
+  },
+  {
+   "month": "2014-10",
+   "value": 182,
+   "scaled": false
+  },
+  {
+   "month": "2014-11",
+   "value": 237,
+   "scaled": false
+  },
+  {
+   "month": "2014-12",
+   "value": 189,
+   "scaled": false
+  },
+  {
+   "month": "2015-01",
+   "value": 145,
+   "scaled": false
+  },
+  {
+   "month": "2015-02",
+   "value": 138,
+   "scaled": false
+  },
+  {
+   "month": "2015-03",
+   "value": 188,
+   "scaled": false
+  },
+  {
+   "month": "2015-04",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2015-05",
+   "value": 159,
+   "scaled": false
+  },
+  {
+   "month": "2015-06",
+   "value": 134,
+   "scaled": false
+  },
+  {
+   "month": "2015-07",
+   "value": 142,
+   "scaled": false
+  },
+  {
+   "month": "2015-08",
+   "value": 159,
+   "scaled": false
+  },
+  {
+   "month": "2015-09",
+   "value": 156,
+   "scaled": false
+  },
+  {
+   "month": "2015-10",
+   "value": 153,
+   "scaled": false
+  },
+  {
+   "month": "2015-11",
+   "value": 211,
+   "scaled": false
+  },
+  {
+   "month": "2015-12",
+   "value": 229,
+   "scaled": false
+  },
+  {
+   "month": "2016-01",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2016-02",
+   "value": 162,
+   "scaled": false
+  },
+  {
+   "month": "2016-03",
+   "value": 186,
+   "scaled": false
+  },
+  {
+   "month": "2016-04",
+   "value": 172,
+   "scaled": false
+  },
+  {
+   "month": "2016-05",
+   "value": 141,
+   "scaled": false
+  },
+  {
+   "month": "2016-06",
+   "value": 168,
+   "scaled": false
+  },
+  {
+   "month": "2016-07",
+   "value": 146,
+   "scaled": false
+  },
+  {
+   "month": "2016-08",
+   "value": 148,
+   "scaled": false
+  },
+  {
+   "month": "2016-09",
+   "value": 182,
+   "scaled": false
+  },
+  {
+   "month": "2016-10",
+   "value": 131,
+   "scaled": false
+  },
+  {
+   "month": "2016-11",
+   "value": 122,
+   "scaled": false
+  },
+  {
+   "month": "2016-12",
+   "value": 154,
+   "scaled": false
+  },
+  {
+   "month": "2017-01",
+   "value": 157,
+   "scaled": false
+  },
+  {
+   "month": "2017-02",
+   "value": 141,
+   "scaled": false
+  },
+  {
+   "month": "2017-03",
+   "value": 162,
+   "scaled": false
+  },
+  {
+   "month": "2017-04",
+   "value": 185,
+   "scaled": false
+  },
+  {
+   "month": "2017-05",
+   "value": 192,
+   "scaled": false
+  },
+  {
+   "month": "2017-06",
+   "value": 175,
+   "scaled": false
+  },
+  {
+   "month": "2017-07",
+   "value": 163,
+   "scaled": false
+  },
+  {
+   "month": "2017-08",
+   "value": 166,
+   "scaled": false
+  },
+  {
+   "month": "2017-09",
+   "value": 146,
+   "scaled": false
+  },
+  {
+   "month": "2017-10",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2017-11",
+   "value": 153,
+   "scaled": false
+  },
+  {
+   "month": "2017-12",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2018-01",
+   "value": 196,
+   "scaled": false
+  },
+  {
+   "month": "2018-02",
+   "value": 125,
+   "scaled": false
+  },
+  {
+   "month": "2018-03",
+   "value": 103,
+   "scaled": false
+  },
+  {
+   "month": "2018-04",
+   "value": 160,
+   "scaled": false
+  },
+  {
+   "month": "2018-05",
+   "value": 156,
+   "scaled": false
+  },
+  {
+   "month": "2018-06",
+   "value": 171,
+   "scaled": false
+  },
+  {
+   "month": "2018-07",
+   "value": 236,
+   "scaled": false
+  },
+  {
+   "month": "2018-08",
+   "value": 338,
+   "scaled": false
+  },
+  {
+   "month": "2018-09",
+   "value": 305,
+   "scaled": false
+  },
+  {
+   "month": "2018-10",
+   "value": 252,
+   "scaled": false
+  },
+  {
+   "month": "2018-11",
+   "value": 185,
+   "scaled": true
+  },
+  {
+   "month": "2018-12",
+   "value": 116,
+   "scaled": true
+  },
+  {
+   "month": "2019-01",
+   "value": 307,
+   "scaled": false
+  },
+  {
+   "month": "2019-02",
+   "value": 242,
+   "scaled": false
+  },
+  {
+   "month": "2019-03",
+   "value": 188,
+   "scaled": false
+  },
+  {
+   "month": "2019-04",
+   "value": 225,
+   "scaled": false
+  },
+  {
+   "month": "2019-05",
+   "value": 215,
+   "scaled": false
+  },
+  {
+   "month": "2019-06",
+   "value": 224,
+   "scaled": false
+  },
+  {
+   "month": "2019-07",
+   "value": 318,
+   "scaled": false
+  },
+  {
+   "month": "2019-08",
+   "value": 180,
+   "scaled": false
+  },
+  {
+   "month": "2019-09",
+   "value": 216,
+   "scaled": false
+  },
+  {
+   "month": "2019-10",
+   "value": 295,
+   "scaled": false
+  },
+  {
+   "month": "2019-11",
+   "value": 397,
+   "scaled": false
+  },
+  {
+   "month": "2019-12",
+   "value": 235,
+   "scaled": false
+  },
+  {
+   "month": "2020-01",
+   "value": 141,
+   "scaled": false
+  },
+  {
+   "month": "2020-02",
+   "value": 246,
+   "scaled": false
+  },
+  {
+   "month": "2020-03",
+   "value": 220,
+   "scaled": false
+  },
+  {
+   "month": "2020-04",
+   "value": 206,
+   "scaled": false
+  },
+  {
+   "month": "2020-05",
+   "value": 214,
+   "scaled": false
+  },
+  {
+   "month": "2020-06",
+   "value": 232,
+   "scaled": false
+  },
+  {
+   "month": "2020-07",
+   "value": 203,
+   "scaled": false
+  },
+  {
+   "month": "2020-08",
+   "value": 234,
+   "scaled": false
+  },
+  {
+   "month": "2020-09",
+   "value": 228,
+   "scaled": false
+  },
+  {
+   "month": "2020-10",
+   "value": 209,
+   "scaled": false
+  },
+  {
+   "month": "2020-11",
+   "value": 199,
+   "scaled": false
+  },
+  {
+   "month": "2020-12",
+   "value": 204,
+   "scaled": false
+  },
+  {
+   "month": "2021-01",
+   "value": 188,
+   "scaled": false
+  },
+  {
+   "month": "2021-02",
+   "value": 206,
+   "scaled": false
+  },
+  {
+   "month": "2021-03",
+   "value": 251,
+   "scaled": false
+  },
+  {
+   "month": "2021-04",
+   "value": 230,
+   "scaled": false
+  },
+  {
+   "month": "2021-05",
+   "value": 233,
+   "scaled": false
+  },
+  {
+   "month": "2021-06",
+   "value": 242,
+   "scaled": false
+  },
+  {
+   "month": "2021-07",
+   "value": 202,
+   "scaled": false
+  },
+  {
+   "month": "2021-08",
+   "value": 222,
+   "scaled": false
+  },
+  {
+   "month": "2021-09",
+   "value": 168,
+   "scaled": false
+  },
+  {
+   "month": "2021-10",
+   "value": 205,
+   "scaled": false
+  },
+  {
+   "month": "2021-11",
+   "value": 228,
+   "scaled": false
+  },
+  {
+   "month": "2021-12",
+   "value": 263,
+   "scaled": false
+  },
+  {
+   "month": "2022-01",
+   "value": 230,
+   "scaled": false
+  },
+  {
+   "month": "2022-02",
+   "value": 217,
+   "scaled": false
+  },
+  {
+   "month": "2022-03",
+   "value": 205,
+   "scaled": false
+  },
+  {
+   "month": "2022-04",
+   "value": 200,
+   "scaled": false
+  },
+  {
+   "month": "2022-05",
+   "value": 169,
+   "scaled": false
+  },
+  {
+   "month": "2022-06",
+   "value": 170,
+   "scaled": false
+  },
+  {
+   "month": "2022-07",
+   "value": 206,
+   "scaled": false
+  },
+  {
+   "month": "2022-08",
+   "value": 184,
+   "scaled": false
+  },
+  {
+   "month": "2022-09",
+   "value": 239,
+   "scaled": false
+  },
+  {
+   "month": "2022-10",
+   "value": 183,
+   "scaled": false
+  },
+  {
+   "month": "2022-11",
+   "value": 182,
+   "scaled": false
+  },
+  {
+   "month": "2022-12",
+   "value": 207,
+   "scaled": false
+  },
+  {
+   "month": "2023-01",
+   "value": 334,
+   "scaled": false
+  },
+  {
+   "month": "2023-02",
+   "value": 172,
+   "scaled": false
+  },
+  {
+   "month": "2023-03",
+   "value": 189,
+   "scaled": false
+  },
+  {
+   "month": "2023-04",
+   "value": 210,
+   "scaled": false
+  },
+  {
+   "month": "2023-05",
+   "value": 155,
+   "scaled": false
+  },
+  {
+   "month": "2023-06",
+   "value": 175,
+   "scaled": false
+  },
+  {
+   "month": "2023-07",
+   "value": 184,
+   "scaled": false
+  },
+  {
+   "month": "2023-08",
+   "value": 194,
+   "scaled": false
+  },
+  {
+   "month": "2023-09",
+   "value": 178,
+   "scaled": false
+  },
+  {
+   "month": "2023-10",
+   "value": 188,
+   "scaled": false
+  },
+  {
+   "month": "2023-11",
+   "value": 292,
+   "scaled": false
+  },
+  {
+   "month": "2023-12",
+   "value": 182,
+   "scaled": false
+  },
+  {
+   "month": "2024-01",
+   "value": 218,
+   "scaled": false
+  },
+  {
+   "month": "2024-02",
+   "value": 141,
+   "scaled": false
+  },
+  {
+   "month": "2024-03",
+   "value": 191,
+   "scaled": false
+  },
+  {
+   "month": "2024-04",
+   "value": 158,
+   "scaled": false
+  },
+  {
+   "month": "2024-05",
+   "value": 146,
+   "scaled": false
+  },
+  {
+   "month": "2024-06",
+   "value": 150,
+   "scaled": false
+  },
+  {
+   "month": "2024-07",
+   "value": 122,
+   "scaled": false
+  },
+  {
+   "month": "2024-08",
+   "value": 145,
+   "scaled": false
+  },
+  {
+   "month": "2024-09",
+   "value": 121,
+   "scaled": false
+  },
+  {
+   "month": "2024-10",
+   "value": 152,
+   "scaled": false
+  },
+  {
+   "month": "2024-11",
+   "value": 153,
+   "scaled": false
+  },
+  {
+   "month": "2024-12",
+   "value": 142,
+   "scaled": false
+  },
+  {
+   "month": "2025-01",
+   "value": 134,
+   "scaled": false
+  },
+  {
+   "month": "2025-02",
+   "value": 196,
+   "scaled": false
+  },
+  {
+   "month": "2025-03",
+   "value": 165,
+   "scaled": false
+  },
+  {
+   "month": "2025-04",
+   "value": 157,
+   "scaled": false
+  },
+  {
+   "month": "2025-05",
+   "value": 144,
+   "scaled": false
+  },
+  {
+   "month": "2025-06",
+   "value": 126,
+   "scaled": false
+  },
+  {
+   "month": "2025-07",
+   "value": 170,
+   "scaled": false
+  },
+  {
+   "month": "2025-08",
+   "value": 161,
+   "scaled": false
+  },
+  {
+   "month": "2025-09",
+   "value": 178,
+   "scaled": false
+  },
+  {
+   "month": "2025-10",
+   "value": 190,
+   "scaled": false
+  },
+  {
+   "month": "2025-11",
+   "value": 133,
+   "scaled": false
+  },
+  {
+   "month": "2025-12",
+   "value": 141,
+   "scaled": false
+  },
+  {
+   "month": "2026-01",
+   "value": 164,
+   "scaled": false
+  },
+  {
+   "month": "2026-02",
+   "value": 140,
+   "scaled": false
+  },
+  {
+   "month": "2026-03",
+   "value": 132,
+   "scaled": false
+  },
+  {
+   "month": "2026-04",
+   "value": 301,
+   "scaled": false
+  },
+  {
+   "month": "2026-05",
+   "value": 129,
+   "scaled": false
+  },
+  {
+   "month": "2026-06",
+   "value": 323,
+   "scaled": false
+  },
+  {
+   "month": "2026-07",
+   "value": 208,
+   "scaled": false
+  },
+  {
+   "month": "2026-08",
+   "value": null,
+   "scaled": false
+  }
+ ],
+ "median": 179.0,
+ "threshold": 313.2,
+ "last_month": "2026-07",
+ "gaps": [
+  "2009-09",
+  "2013-07",
+  "2013-08",
+  "2026-08"
+ ],
+ "spikes": [
+  {
+   "month": "2010-10",
+   "value": 337,
+   "label": "Mentawai",
+   "top_regions": [
+    "Southwest of Sumatra, Indonesia",
+    "Irian Jaya Region, Indonesia"
+   ]
+  },
+  {
+   "month": "2018-08",
+   "value": 338,
+   "label": "Lombok",
+   "top_regions": [
+    "Sumbawa Region, Indonesia",
+    "Southern Sumatra, Indonesia"
+   ]
+  },
+  {
+   "month": "2019-07",
+   "value": 318,
+   "label": "Halmahera & Laut Maluku",
+   "top_regions": [
+    "Halmahera, Indonesia",
+    "Northern Molucca Sea"
+   ]
+  },
+  {
+   "month": "2019-11",
+   "value": 397,
+   "label": "Laut Maluku",
+   "top_regions": [
+    "Northern Molucca Sea",
+    "Seram, Indonesia"
+   ]
+  },
+  {
+   "month": "2023-01",
+   "value": 334,
+   "label": "Laut Maluku & Talaud",
+   "top_regions": [
+    "Northern Molucca Sea",
+    "Talaud Islands, Indonesia"
+   ]
+  },
+  {
+   "month": "2026-06",
+   "value": 323,
+   "label": "Mindanao, Filipina",
+   "top_regions": [
+    "Mindanao, Philippines",
+    "Sulawesi, Indonesia"
+   ]
+  }
+ ],
+ "next_highest": 307
+}

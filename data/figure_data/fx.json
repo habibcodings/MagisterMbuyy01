@@ -1,0 +1,81 @@
+{
+ "years": [
+  {
+   "year": 2008,
+   "codes": 171
+  },
+  {
+   "year": 2009,
+   "codes": 202
+  },
+  {
+   "year": 2010,
+   "codes": 230
+  },
+  {
+   "year": 2011,
+   "codes": 261
+  },
+  {
+   "year": 2012,
+   "codes": 287
+  },
+  {
+   "year": 2013,
+   "codes": 293
+  },
+  {
+   "year": 2014,
+   "codes": 314
+  },
+  {
+   "year": 2015,
+   "codes": 320
+  },
+  {
+   "year": 2016,
+   "codes": 334
+  },
+  {
+   "year": 2017,
+   "codes": 369
+  },
+  {
+   "year": 2018,
+   "codes": 614
+  },
+  {
+   "year": 2019,
+   "codes": 825
+  },
+  {
+   "year": 2020,
+   "codes": 1082
+  },
+  {
+   "year": 2021,
+   "codes": 1105
+  },
+  {
+   "year": 2022,
+   "codes": 1153
+  },
+  {
+   "year": 2023,
+   "codes": 1287
+  },
+  {
+   "year": 2024,
+   "codes": 1310
+  },
+  {
+   "year": 2025,
+   "codes": 1314
+  }
+ ],
+ "codes_in_box": 1349,
+ "placeholders": 35,
+ "y2017": 369,
+ "y2025": 1314,
+ "jan1_share": 0.6
+}
