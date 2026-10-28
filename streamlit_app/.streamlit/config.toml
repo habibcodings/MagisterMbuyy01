@@ -1,0 +1,15 @@
+# Theme for the Streamlit version (streamlit_app/app.py). Same tokens as site/css/style.css; the UI pink is never used in charts.
+[theme]
+base = "light"
+primaryColor = "#D4559A"
+backgroundColor = "#FCF7FB"
+secondaryBackgroundColor = "#F3ECF1"
+textColor = "#3F1D38"
+linkColor = "#A8336F"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap, sans-serif"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
