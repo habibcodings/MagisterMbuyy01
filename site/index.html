@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bukan Bumi yang Makin Gaduh, Telinga Kita yang Makin Tajam</title>
+<meta name="description" content="Angka gempa tahunan BMKG naik lima kali lipat, tetapi gempa M5+ justru turun. Cerita data untuk redaksi yang meliput angka gempa tahunan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#keterbatasan">Langsung ke sumber dan keterbatasan data</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <p class="header-title">Telinga yang Makin Tajam</p>
+    <nav class="progress" aria-label="Setup · Konflik · Resolusi">
+      <a class="seg" href="#hero" data-seg="setup"><span class="seg-label">Setup</span><span class="seg-bar"><span class="seg-fill"></span></span></a>
+      <a class="seg" href="#g1-step-4" data-seg="konflik"><span class="seg-label">Konflik</span><span class="seg-bar"><span class="seg-fill"></span></span></a>
+      <a class="seg" href="#g5" data-seg="resolusi"><span class="seg-label">Resolusi</span><span class="seg-bar"><span class="seg-fill"></span></span></a>
+    </nav>
+    <button type="button" class="toggle toggle-global" id="easy-global" aria-pressed="false" aria-label="Ubah semua gambar ke versi mudah"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah untuk semua</span></button>
+  </div>
+</header>
+
+<main>
+<section id="hero" class="hero" data-easy-section="hero">
+  <svg class="hero-line" aria-hidden="true" focusable="false"></svg>
+  <div class="hero-inner">
+    <div class="hero-top">
+      <p class="kicker">CERITA DATA · GEMPA BUMI INDONESIA</p>
+      <button type="button" class="toggle toggle-section" aria-pressed="false"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+    </div>
+    <h1>Bukan Bumi yang Makin Gaduh, Telinga Kita yang Makin Tajam</h1>
+    <p class="main-message">Jumlah gempa yang diumumkan BMKG naik lima kali lipat dari 2020 ke 2025, tetapi menurut angka BMKG sendiri gempa M5 ke atas justru turun dari 244 menjadi 153, sehingga yang bertambah adalah gempa kecil yang kini lebih banyak terekam, bukan gempa yang lebih kuat.</p>
+    <p class="plain-card easy-only" hidden>BMKG kini mencatat jauh lebih banyak gempa, tetapi gempa yang kuat tidak ikut bertambah; yang bertambah adalah gempa kecil yang kini lebih mudah terekam. (M4 dan M5 adalah ukuran kekuatan gempa; makin besar angkanya, makin kuat gempanya.)</p>
+    <p class="byline">Yasmina Arethaya Hanjani &amp; Cut Nabilah Nuur Azizah · Visualisasi Data Lanjut, Magister Informatika Telkom University · Oktober 2026</p>
+    <p class="scroll-cue"><span class="cue-mouse" aria-hidden="true"></span>Gulir untuk mulai</p>
+  </div>
+</section>
+
+<section id="lede" class="prose">
+  <p class="lede">Januari 2025, Kepala BMKG mengumumkan 29.869 gempa sepanjang 2024, dan berita menulis gempa “makin sering” (CNBC Indonesia, 21 Januari 2025). Setahun kemudian angkanya 43.439. Pertanyaannya: gempa apa yang sebenarnya bertambah?</p>
+</section>
+
+<!-- ============ G1 ============ -->
+<section id="g1" class="story" data-fig="g1" data-n="1" aria-labelledby="g1-title">
+  <p class="kicker section-kicker">SETUP → KONFLIK</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g1-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 1</span>
+        <h2 class="fig-title" id="g1-title">Total gempa yang diumumkan BMKG naik lima kali lipat, tetapi gempa M5+ menurut BMKG sendiri justru turun</h2>
+        <p class="fig-sub">Angka tahunan dalam rilis BMKG, 2020–2025</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 1"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap"><div class="plot" id="g1-plot"></div></div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g1-alt">Dua panel kolom. Total gempa yang diumumkan BMKG naik dari 8.264 (2020) menjadi 43.439 (2025), sedangkan gempa M5+ turun dari 244 menjadi 153.</p>
+        <p class="fig-note">BMKG mengumumkan dua angka untuk 2024: 7.358 (Direktur Gempabumi dan Tsunami, 31 Des 2024) dan 29.869 (Kepala BMKG, 17 Jan 2025); jumlah M5+ 2024 (186) berasal dari rilis 31 Des 2024. Batas M5 ditulis “di atas M5” atau “M≥5”, tergantung rilis. Gempa dirasakan: 754 (2020) dan 973 (2025).</p>
+        <p class="fig-source">Sumber: rilis tahunan BMKG, dikutip CNN Indonesia (30 Des 2021), Antara, Beritasatu, IDX Channel (31 Des 2024), Okezone (17 Jan 2025) dan kumparan (2 Jan 2026). Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step" data-step="0"><p>Pada 2020, BMKG mengumumkan 8.264 gempa di Indonesia.</p></div>
+      <div class="step" data-step="1"><p>Lima tahun kemudian, angkanya 43.439. Lima kali lipat.</p></div>
+      <div class="step" data-step="2"><p>Untuk 2024, BMKG bahkan merilis dua angka: 7.358 pada 31 Desember 2024, lalu 29.869 dua minggu kemudian.</p></div>
+      <div class="step step-guess" data-step="3" id="g1-step-4">
+        <p class="guess-kicker"><strong>Tebak dulu.</strong></p>
+        <p id="g1-q">Bagaimana dengan gempa M5 ke atas, gempa yang lebih kuat? Dari 2020 ke 2025, menurutmu jumlahnya…</p>
+        <div class="guess-buttons" role="group" aria-labelledby="g1-q">
+          <button type="button" class="btn-choice" data-answer="naik" aria-pressed="false">Naik</button>
+          <button type="button" class="btn-choice" data-answer="tetap" aria-pressed="false">Tetap</button>
+          <button type="button" class="btn-choice" data-answer="turun" aria-pressed="false">Turun</button>
+        </div>
+        <button type="button" class="btn-skip">Lewati, tunjukkan saja</button>
+      </div>
+      <div class="step step-reveal" data-step="4">
+        <p aria-live="polite"><span class="feedback" data-skipped="Gempa M5+ turun dari 244 menjadi 153." data-turun="Tepat. Gempa M5+ turun dari 244 menjadi 153." data-other="Banyak yang menduga begitu. Faktanya, gempa M5+ turun dari 244 menjadi 153.">Gempa M5+ turun dari 244 menjadi 153.</span> Menurut rilis BMKG sendiri, yang bertambah adalah gempa kecil.</p>
+      </div>
+    </div>
+    <div class="easy-card" hidden><p id="g1-easy">BMKG mengumumkan lima kali lebih banyak gempa pada 2025 dibanding 2020, tetapi gempa M5 ke atas justru berkurang dari 244 menjadi 153.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>Angkanya naik lima kali lipat, tetapi gempa yang kuat tidak ikut naik.</p></div>
+</section>
+
+<!-- ============ G2 ============ -->
+<section id="g2" class="story" data-fig="g2" data-n="2" aria-labelledby="g2-title">
+  <p class="kicker section-kicker">KONFLIK</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g2-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 2</span>
+        <h2 class="fig-title" id="g2-title">Di katalog publik BMKG, 97% kenaikan adalah gempa di bawah M4; gempa M4+ nyaris tidak berubah</h2>
+        <p class="fig-sub">Gempa per tahun menurut kekuatan, katalog RepoGempa, 2009–2025</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 2"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap"><div class="plot" id="g2-plot"></div></div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g2-alt">Kolom bertumpuk per tahun 2009–2025. Bagian oranye (M4+) tetap di kisaran 1.755–3.042 per tahun, sementara bagian abu-abu (di bawah M4) membesar sehingga total naik dua kali lipat.</p>
+        <p class="fig-note">Magnitudo dibulatkan ke satu desimal seperti yang diumumkan BMKG; M4+ berarti M4,0 ke atas. Tahun dengan data tidak lengkap (2009, 2010, 2013, 2018) disetarakan ke satu tahun penuh. 923 gempa tanpa magnitudo (0,6%) tidak dihitung.</p>
+        <p class="fig-source">Sumber: Katalog gempa BMKG (RepoGempa), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Wilayah 11° LS–6° LU, 94°–142° BT. Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step step-guess" data-step="0">
+        <p class="guess-kicker"><strong>Tebak dulu.</strong></p>
+        <p id="g2-q">Katalog publik BMKG mencatat dua kali lebih banyak gempa per tahun pada 2022–2025 dibanding 2014–2017. Dari setiap 100 gempa tambahan itu, menurutmu berapa yang berkekuatan M4 ke atas?</p>
+        <label class="slider-label" for="g2-slider">Tebakanmu: <output id="g2-out" for="g2-slider">50</output> dari 100</label>
+        <input type="range" id="g2-slider" min="0" max="100" step="1" value="50" aria-describedby="g2-q">
+        <div class="guess-actions">
+          <button type="button" class="btn-primary" id="g2-answer">Lihat jawabannya</button>
+          <button type="button" class="btn-skip">Lewati</button>
+        </div>
+        <p class="feedback" aria-live="polite" data-answered="Tebakanmu {x} dari 100. Faktanya: hanya 3." data-skipped="Hanya 3 dari 100."></p>
+      </div>
+      <div class="step" data-step="1"><p>Ini katalog publik BMKG, data yang bisa diunduh siapa pun. Untuk 2020–2024, totalnya selisih kurang dari 5% dari angka akhir tahun BMKG. Untuk 2025, katalog ini memuat 18.592 gempa, lebih sedikit daripada 43.439 yang diumumkan; rinciannya belum dirilis.</p></div>
+      <div class="step" data-step="2"><p>Pisahkan menurut kekuatan: oranye untuk gempa M4 ke atas, abu-abu untuk gempa di bawah M4.</p></div>
+      <div class="step" data-step="3"><p>Sejak 2009, gempa M4+ bertahan di kisaran 1.755–3.042 per tahun.</p></div>
+      <div class="step" data-step="4"><p>2025 punya total tertinggi, tetapi jumlah M4+-nya termasuk yang terendah.</p></div>
+    </div>
+    <div class="easy-card" hidden><p id="g2-easy">Dari setiap 100 gempa tambahan di katalog BMKG, hanya 3 yang berkekuatan M4 ke atas; 97 sisanya gempa kecil.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>97 dari 100 gempa tambahan adalah gempa kecil.</p></div>
+</section>
+
+<!-- ============ Bridge ============ -->
+<section id="jembatan" class="prose" data-easy-section="jembatan">
+  <p class="normal-only">Kepala BMKG saat itu, Dwikorita Karnawati, menolak anggapan bahwa kenaikan ini terjadi karena alat bertambah: menurutnya jumlah sensor sekitar 170 pada 2009–2019 ketika jumlah gempa melonjak, dan pada 2020, saat seismograf sudah lebih dari 300, jumlah gempa justru turun (IDX Channel dan Okezone, 17 Januari 2025). BMKG juga melaporkan membangun 95 seismograf baru pada 2023 sehingga totalnya 533 (Beritasatu). Lonjakan 2018–2019 memang memuat rangkaian gempa sungguhan, seperti terlihat pada Gambar 5. Tetapi katalog itu sendiri juga merekam jejak deteksi.</p>
+  <p class="easy-only plain-card" hidden>BMKG menyatakan kenaikan ini bukan karena alat bertambah. Mari lihat apa yang direkam katalognya sendiri.</p>
+</section>
+
+<!-- ============ G3 ============ -->
+<section id="g3" class="story" data-fig="g3" data-n="3" aria-labelledby="g3-title">
+  <p class="kicker section-kicker">KONFLIK</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g3-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 3</span>
+        <h2 class="fig-title" id="g3-title">Jaringan kini menangkap gempa yang lebih kecil, sementara gempa M4+ nyaris tidak bertambah</h2>
+        <p class="fig-sub">Jumlah gempa per tahun di setiap kekuatan, 2014–2017 dibanding 2022–2025</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 3"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap">
+        <fieldset class="segmented" id="g3-control" aria-labelledby="g3-title">
+          <label><input type="radio" name="g3-mode" value="all" checked><span>Semua jenis magnitudo</span></label>
+          <label><input type="radio" name="g3-mode" value="mlv"><span>Hanya MLv</span></label>
+        </fieldset>
+        <div class="plot" id="g3-plot"></div>
+      </div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g3-alt">Dua kurva sebaran magnitudo. Kurva 2022–2025 jauh lebih tinggi di bawah M4 dengan puncak M3,0, sedangkan di atas M4 kedua kurva berdekatan.</p>
+        <p class="fig-note">Magnitudo dibulatkan ke 0,1. Gempa di atas M6,0 (±5 per tahun pada 2014–2017, ±13 pada 2022–2025) dan di bawah M1,0 (±3 per tahun pada 2022–2025) tidak digambar. Mode “Hanya MLv” membandingkan 2014–2017 dengan 2025, tahun ketika hampir semua gempa memakai MLv.</p>
+        <p class="fig-source">Sumber: Katalog gempa BMKG (RepoGempa), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Wilayah 11° LS–6° LU, 94°–142° BT. Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step" data-step="0"><p>Begini sebaran kekuatan gempa per tahun pada 2014–2017. Puncaknya di M3,4.</p></div>
+      <div class="step" data-step="1"><p>Dan ini 2022–2025. Puncaknya bergeser ke M3,0, dan sisi kirinya melonjak.</p></div>
+      <div class="step" data-step="2"><p>Di atas M4, kedua garis berdekatan: gempa M4+ hampir tidak bertambah.</p></div>
+      <div class="step" data-step="3"><p>Ragu karena jenis magnitudo berganti antartahun? Pilih “Hanya MLv”. Dengan satu jenis magnitudo saja, puncaknya tetap bergeser, dari M3,4 ke M2,7.</p></div>
+    </div>
+    <div class="easy-card" hidden><p id="g3-easy">Gempa kecil sekitar M3 kini tercatat hampir tiga kali lebih banyak setiap tahun, sementara gempa sekitar M4,5 hampir tidak berubah.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>Yang bertambah hanya gempa kecil, dengan jenis magnitudo apa pun.</p></div>
+</section>
+
+<!-- ============ G4 ============ -->
+<section id="g4" class="story" data-fig="g4" data-n="4" aria-labelledby="g4-title">
+  <p class="kicker section-kicker">KONFLIK</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g4-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 4</span>
+        <h2 class="fig-title" id="g4-title">Gempa berukuran sama kini terekam oleh dua kali lebih banyak bacaan seismik</h2>
+        <p class="fig-sub">Median jumlah bacaan fase untuk gempa M4,0–M4,9, per tahun, 2009–2025</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 4"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap"><div class="plot" id="g4-plot"></div></div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g4-alt">Garis median bacaan fase naik dari sekitar 20 pada 2014–2017 menjadi 44 pada 2022–2025, dengan lonjakan antara 2019 dan 2022.</p>
+        <p class="fig-note">Bacaan fase adalah kedatangan gelombang seismik di stasiun yang dipakai untuk menentukan lokasi gempa. Dengan satu jenis magnitudo saja (MLv): 18 (2014–2017) → 42 (2025). Perubahan sistem pengolahan juga dapat menambah jumlah bacaan.</p>
+        <p class="fig-source">Sumber: Katalog gempa BMKG (RepoGempa), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Wilayah 11° LS–6° LU, 94°–142° BT. Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step" data-step="0"><p>Lokasi sebuah gempa ditentukan dari bacaan gelombangnya di banyak stasiun. Ini median jumlah bacaan untuk gempa berukuran sama, M4,0–4,9.</p></div>
+      <div class="step" data-step="1"><p>Mulai 2020, gempa berukuran sama dibaca oleh jauh lebih banyak stasiun.</p></div>
+      <div class="step" data-step="2"><p>2022–2025: median 44 bacaan, dua kali lipat 2014–2017. Lebih banyak “telinga” untuk setiap gempa, sehingga gempa kecil pun lebih mudah tertangkap.</p></div>
+    </div>
+    <div class="easy-card" hidden><p id="g4-easy">Gempa yang ukurannya sama kini terekam oleh dua kali lebih banyak bacaan alat, tanda jaringan pemantau yang makin peka.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>Jaringannya makin peka, jadi makin banyak gempa kecil yang tercatat.</p></div>
+</section>
+
+<!-- ============ G5 ============ -->
+<section id="g5" class="story" data-fig="g5" data-n="5" aria-labelledby="g5-title">
+  <p class="kicker section-kicker">RESOLUSI</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g5-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 5</span>
+        <h2 class="fig-title" id="g5-title">Lonjakan sungguhan terlihat berbeda: singkat, lokal, dan muncul pada gempa M4+</h2>
+        <p class="fig-sub">Gempa M4+ per bulan, November 2008 – Juli 2026</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 5"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap"><div class="plot" id="g5-plot"></div></div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g5-alt">Garis bulanan gempa M4+ yang datar di sekitar 180 per bulan, dengan enam lonjakan singkat berlabel: Mentawai 2010, Lombok 2018, Halmahera dan Laut Maluku 2019, Laut Maluku 2019, Laut Maluku dan Talaud 2023, serta Mindanao 2026.</p>
+        <p class="fig-note">Bulan dengan data tidak lengkap disetarakan ke satu bulan penuh; garis terputus pada bulan dengan data kurang dari 15 hari (Sep 2009, Jul–Agu 2013). Label: bulan dengan gempa M4+ setidaknya 1,75 kali bulan biasa, dinamai menurut rangkaian gempa penyumbang terbesar. Wilayah analisis mencakup sebagian Filipina selatan.</p>
+        <p class="fig-source">Sumber: Katalog gempa BMKG (RepoGempa), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Wilayah 11° LS–6° LU, 94°–142° BT. Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step" data-step="0"><p>Lonjakan sungguhan juga ada. Ini jumlah gempa M4+ per bulan sejak akhir 2008.</p></div>
+      <div class="step" data-step="1"><p>Bulan biasa: sekitar 180 gempa M4+.</p></div>
+      <div class="step" data-step="2"><p>Hanya enam bulan yang melonjak sampai 1,75 kali bulan biasa atau lebih, dan setiap lonjakan punya nama. (Lonjakan Palu, September 2018, tepat di bawah batas ini.)</p></div>
+      <div class="step" data-step="3"><p>Ketuk sebuah lonjakan untuk melihat asalnya.</p></div>
+    </div>
+    <div class="easy-card" hidden><p id="g5-easy">Lonjakan sungguhan terjadi singkat dan punya nama tempat, seperti Laut Maluku pada November 2019, ketika gempa M4 ke atas lebih dari dua kali bulan biasa.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>Lonjakan yang layak jadi judul punya nama, tempat, dan akhir.</p></div>
+</section>
+
+<!-- ============ G6 ============ -->
+<section id="g6" class="story" data-fig="g6" data-n="6" aria-labelledby="g6-title">
+  <p class="kicker section-kicker">RESOLUSI</p>
+  <div class="scrolly">
+    <figure class="fig-card" aria-labelledby="g6-title">
+      <figcaption class="fig-head">
+        <span class="fig-num">Gambar 6</span>
+        <h2 class="fig-title" id="g6-title">Laju gempa M4+ 2026 masih dalam rentang biasanya — dan “biasa” bagi Indonesia sudah tinggi</h2>
+        <p class="fig-sub">Gempa M4+ per tahun, 2009–2025, dan laju 2026 hingga 14 Agustus</p>
+        <button type="button" class="toggle toggle-section" aria-pressed="false" aria-label="Tampilkan versi mudah Gambar 6"><span class="knob" aria-hidden="true"></span><span class="toggle-label">Versi mudah</span></button>
+      </figcaption>
+      <div class="plot-wrap"><div class="plot" id="g6-plot"></div></div>
+      <div class="fig-foot">
+        <p class="sr-only" id="g6-alt">Titik per tahun untuk gempa M4+ antara 1.755 dan 3.042 per tahun; laju 2026 sekitar 2.430 berada di dalam rentang itu.</p>
+        <p class="fig-note">Laju 2026 dihitung dari 1 Januari–14 Agustus 2026 dan disetarakan ke satu tahun penuh; angka akhirnya bisa berbeda.</p>
+        <p class="fig-source">Sumber: Katalog gempa BMKG (RepoGempa), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Wilayah 11° LS–6° LU, 94°–142° BT. Olahan: Hanjani &amp; Azizah.</p>
+      </div>
+    </figure>
+    <div class="steps">
+      <div class="step" data-step="0"><p>Setiap titik adalah satu tahun: jumlah gempa M4+ di katalog.</p></div>
+      <div class="step" data-step="1"><p>Rentangnya dari 1.755 (2013) sampai 3.042 (2019). Mediannya 2.159 per tahun, sekitar 6 gempa M4+ setiap hari.</p></div>
+      <div class="step" data-step="2"><p>Dan 2026 sejauh ini? Sekitar 2.430 per tahun, masih di dalam rentang.</p></div>
+    </div>
+    <div class="easy-card" hidden><p id="g6-easy">Rata-rata ada sekitar 6 gempa M4 ke atas setiap hari di Indonesia; angka ini sudah tinggi, dan 2026 sejauh ini masih di kisaran yang sama.</p></div>
+  </div>
+  <div class="key-card"><span class="orb" aria-hidden="true"></span><p>“Biasa” bagi Indonesia sudah tinggi, dan itulah alasan untuk bersiap.</p></div>
+</section>
+
+<!-- ============ Tool ============ -->
+<section id="cek-judul" class="tool" aria-labelledby="cek-judul-h">
+  <h2 id="cek-judul-h">Cek judulmu</h2>
+  <p class="tool-intro">Pilih tahun, atau masukkan angka dari rilis BMKG berikutnya. Alat ini menyarankan kata kerja untuk judulmu, mengikuti daftar periksa di bawah.</p>
+  <div class="tool-ui">
+    <div class="tabs" role="tablist" aria-labelledby="cek-judul-h">
+      <button type="button" role="tab" id="tab-tahun" aria-selected="true" aria-controls="panel-tahun">Tahun 2021–2025</button>
+      <button type="button" role="tab" id="tab-baru" aria-selected="false" aria-controls="panel-baru" tabindex="-1">Angka baru</button>
+    </div>
+    <form class="tool-panel" id="panel-tahun" role="tabpanel" aria-labelledby="tab-tahun" novalidate>
+      <div class="field">
+        <label for="t-year">Tahun</label>
+        <select id="t-year" name="year">
+          <option>2021</option><option>2022</option><option>2023</option><option>2024</option><option selected>2025</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-primary">Cek</button>
+    </form>
+    <form class="tool-panel" id="panel-baru" role="tabpanel" aria-labelledby="tab-baru" hidden>
+      <div class="field"><label for="n-year">Tahun rilis</label><input id="n-year" name="year" type="text" inputmode="numeric" autocomplete="off" required pattern="[0-9]{4}"></div>
+      <div class="field"><label for="n-total">Total gempa tahun ini</label><input id="n-total" name="total" type="text" inputmode="numeric" autocomplete="off" required pattern="[0-9]+|[0-9]{1,3}(\.[0-9]{3})+"></div>
+      <div class="field"><label for="n-now">Gempa M5+ tahun ini</label><input id="n-now" name="now" type="text" inputmode="numeric" autocomplete="off" required pattern="[0-9]+|[0-9]{1,3}(\.[0-9]{3})+"></div>
+      <div class="field"><label for="n-last">Gempa M5+ tahun lalu</label><input id="n-last" name="last" type="text" inputmode="numeric" autocomplete="off" required pattern="0*[1-9][0-9]*|[1-9][0-9]{0,2}(\.[0-9]{3})+"></div>
+      <div class="field"><label for="n-felt">Gempa dirasakan tahun ini (opsional)</label><input id="n-felt" name="felt" type="text" inputmode="numeric" autocomplete="off" pattern="[0-9]+|[0-9]{1,3}(\.[0-9]{3})+"></div>
+      <button type="submit" class="btn-primary">Cek</button>
+    </form>
+    <div class="tool-out" id="tool-out" aria-live="polite" hidden>
+      <p class="out-finding"></p>
+      <p class="out-range" hidden></p>
+      <p class="out-advice"></p>
+      <div class="out-headline-row">
+        <p class="out-headline"></p>
+        <button type="button" class="btn-copy" data-label="Salin judul" data-done="Tersalin">Salin judul</button>
+      </div>
+      <p class="out-felt" hidden></p>
+      <p class="out-extra" hidden></p>
+    </div>
+  </div>
+  <p class="tool-footnote">Alat ini memakai aturan sederhana dari cerita ini, bukan model statistik. Rentang 153–244 adalah jumlah M5+ tahunan dalam rilis BMKG 2020–2025.</p>
+</section>
+
+<!-- ============ Checklist ============ -->
+<section id="daftar-periksa" class="checklist" aria-labelledby="daftar-periksa-h">
+  <h2 id="daftar-periksa-h">Cara membaca angka gempa tahunan BMKG</h2>
+  <ol>
+    <li>Cetak jumlah gempa M5+ dan gempa dirasakan di samping total. Keduanya sudah ada di rilis tahunan BMKG.</li>
+    <li>Tulis “naik” atau “makin sering” hanya jika jumlah gempa M5+ ikut naik. Jika tidak, tulis “lebih banyak gempa yang tercatat”.</li>
+    <li>Jika ada lonjakan, sebut nama rangkaian gempanya. Lonjakan sungguhan punya tempat dan akhir.</li>
+    <li>Ajak bersiap karena angka dasar Indonesia memang sudah tinggi, sekitar 2.150 gempa M4+ per tahun atau kira-kira enam setiap hari, bukan karena totalnya naik.</li>
+  </ol>
+</section>
+
+<!-- ============ Limitations ============ -->
+<section id="keterbatasan" class="endmatter" aria-labelledby="keterbatasan-h">
+  <h2 id="keterbatasan-h">Keterbatasan data</h2>
+  <ol>
+    <li>Angka rilis BMKG (Gambar 1) kami ambil dari pemberitaan media. Penulisan batas M5 berbeda-beda antarrilis. Bila media berbeda angka (satu media menulis 10.983 untuk 2023), kami memakai angka yang dimuat dua media (10.789).</li>
+    <li>BMKG merilis dua total untuk 2024, yaitu 7.358 dan 29.869, tanpa penjelasan perbedaannya.</li>
+    <li>Katalog publik (Gambar 2–6) selisih kurang dari 5% dari angka akhir tahun BMKG untuk 2020–2024. Untuk 2025, katalog hanya memuat 43% dari 43.439 gempa yang diumumkan, dan rinciannya belum dirilis.</li>
+    <li>Wilayah analisis berupa kotak koordinat, sehingga mencakup sebagian negara tetangga.</li>
+    <li>Ada 143 hari tanpa data di katalog. Hari-hari itu adalah celah pengumpulan, bukan hari tanpa gempa; tahun dan bulan yang terdampak disetarakan ke panjang penuh.</li>
+    <li>Jenis magnitudo di katalog berganti antartahun. Kami menguji pola di dalam satu jenis magnitudo (Gambar 3–4). Magnitudo gempa kecil tidak bisa dicek terhadap skala independen, sehingga Gambar 3–4 menunjukkan pola yang <em>konsisten dengan</em> deteksi yang lebih baik, bukan bukti tunggal.</li>
+    <li>Katalog bersifat pendahuluan; magnitudo dan lokasinya bisa direvisi.</li>
+    <li>Jumlah gempa bukan ukuran dampak. Cerita ini tidak membuat klaim tentang kerusakan atau korban.</li>
+  </ol>
+</section>
+
+<!-- ============ Sources ============ -->
+<section id="sumber" class="endmatter" aria-labelledby="sumber-h">
+  <h2 id="sumber-h">Sumber</h2>
+  <ul class="sources">
+    <li><strong>S1.</strong> Vigiliant, A. K. <em>Earthquakes in Indonesia</em> (katalog v2) [dataset]. Kaggle. <a href="https://doi.org/10.34740/kaggle/ds/1934565">https://doi.org/10.34740/kaggle/ds/1934565</a>. Diunduh 28 Oktober 2026. Kode sumber: <a href="https://github.com/kekavigi/repo-gempa/tree/539ed6e461c409da1475781fd57bbc6deaef66ef">github.com/kekavigi/repo-gempa, commit 539ed6e</a>.</li>
+    <li><strong>S2.</strong> BMKG. RepoGempa event catalog. <a href="https://repogempa.bmkg.go.id/eventcatalog">https://repogempa.bmkg.go.id/eventcatalog</a></li>
+    <li><strong>S3.</strong> CNN Indonesia, 30 Des 2021. "Aktivitas Gempa di Indonesia Meningkat Sepanjang 2021." <a href="https://www.cnnindonesia.com/teknologi/20211230134505-199-740553/aktivitas-gempa-di-indonesia-meningkat-sepanjang-2021">https://www.cnnindonesia.com/teknologi/20211230134505-199-740553/aktivitas-gempa-di-indonesia-meningkat-sepanjang-2021</a></li>
+    <li><strong>S4.</strong> Antara News. "Ini jumlah rata-rata banyaknya gempa di Indonesia dalam setahun." <a href="https://www.antaranews.com/berita/4191750/ini-jumlah-rata-rata-banyaknya-gempa-di-indonesia-dalam-setahun">https://www.antaranews.com/berita/4191750/ini-jumlah-rata-rata-banyaknya-gempa-di-indonesia-dalam-setahun</a></li>
+    <li><strong>S5.</strong> Beritasatu. "BMKG Catat 10.789 Gempa Bumi di Indonesia Sepanjang 2023." <a href="https://www.beritasatu.com/nusantara/2791754/bmkg-catat-10789-gempa-bumi-di-indonesia-sepanjang-2023">https://www.beritasatu.com/nusantara/2791754/bmkg-catat-10789-gempa-bumi-di-indonesia-sepanjang-2023</a></li>
+    <li><strong>S6.</strong> IDX Channel, 31 Des 2024. "BMKG: 7.358 Gempa Bumi Guncang Indonesia Sepanjang 2024." <a href="https://www.idxchannel.com/news/bmkg-7358-gempa-bumi-guncang-indonesia-sepanjang-2024">https://www.idxchannel.com/news/bmkg-7358-gempa-bumi-guncang-indonesia-sepanjang-2024</a></li>
+    <li><strong>S7.</strong> IDX Channel, 17 Jan 2025. "Indonesia Diguncang Hampir 30.000 Gempa Bumi Sepanjang 2024." <a href="https://www.idxchannel.com/news/indonesia-diguncang-hampir-30000-gempa-bumi-sepanjang-2024">https://www.idxchannel.com/news/indonesia-diguncang-hampir-30000-gempa-bumi-sepanjang-2024</a></li>
+    <li><strong>S8.</strong> Okezone, 17 Jan 2025. "BMKG: 29.869 Gempa Terjadi di Tahun 2024, 20 di Antaranya Merusak." <a href="https://news.okezone.com/read/2025/01/17/337/3105363/bmkg-29-869-gempa-terjadi-di-tahun-2024-20-di-antaranya-merusak">https://news.okezone.com/read/2025/01/17/337/3105363/bmkg-29-869-gempa-terjadi-di-tahun-2024-20-di-antaranya-merusak</a></li>
+    <li><strong>S9.</strong> CNBC Indonesia, 21 Jan 2025. "Gempa Makin Sering-Megathrust Ancam RI, Kepala BMKG Beri Warning Keras." <a href="https://www.cnbcindonesia.com/news/20250121140939-4-604849/gempa-makin-sering-megathrust-ancam-ri-kepala-bmkg-beri-warning-keras">https://www.cnbcindonesia.com/news/20250121140939-4-604849/gempa-makin-sering-megathrust-ancam-ri-kepala-bmkg-beri-warning-keras</a></li>
+    <li><strong>S10.</strong> kumparan, 2 Jan 2026. "BMKG Catat 43.439 Gempa Terjadi di Indonesia Sepanjang 2025." <a href="https://kumparan.com/kumparannews/bmkg-catat-43-439-gempa-terjadi-di-indonesia-sepanjang-2025-26YLtQKF0D1">https://kumparan.com/kumparannews/bmkg-catat-43-439-gempa-terjadi-di-indonesia-sepanjang-2025-26YLtQKF0D1</a></li>
+    <li><strong>S11.</strong> Daryono (BMKG), "Refleksi Gempa 2022" (paparan, Teknik Geofisika ITS). <a href="https://www.its.ac.id/tgeofisika/wp-content/uploads/sites/33/2022/12/REFLEKSI-GEMPA-2022-DARYONO-BMKG.pdf">https://www.its.ac.id/tgeofisika/wp-content/uploads/sites/33/2022/12/REFLEKSI-GEMPA-2022-DARYONO-BMKG.pdf</a></li>
+    <li><strong>S12.</strong> Diantari, H. C. (2017). <em>Kuantifikasi Kelengkapan Magnitudo pada Katalog Modern BMKG (2008–2016) dalam Pemantauan Gempabumi Indonesia.</em> Skripsi, FMIPA UGM. <a href="https://etd.repository.ugm.ac.id/penelitian/detail/114101">https://etd.repository.ugm.ac.id/penelitian/detail/114101</a></li>
+  </ul>
+  <!-- TODO(kelompok): replace {link repositori} with the public GitHub repository URL (also in the footer). -->
+  <p class="repo-line">Data katalog diunduh 28 Oktober 2026. Seluruh angka dan gambar dapat dihasilkan ulang dari repositori: <a class="repo-link" href="#" data-todo="repo-url">{link repositori}</a>.</p>
+</section>
+
+<!-- ============ Appendix: discarded figure ============ -->
+<section id="gambar-dibuang" class="endmatter appendix" aria-labelledby="gambar-dibuang-h">
+  <h2 id="gambar-dibuang-h">Gambar yang kami buang</h2>
+  <figure class="fig-card fig-static" aria-labelledby="gx-title">
+    <figcaption class="fig-head">
+      <h3 class="fig-title" id="gx-title">Jumlah kode stasiun BMKG di wilayah Indonesia naik lebih dari tiga kali lipat sejak 2017</h3>
+      <p class="fig-sub" id="gx-sub">Kode stasiun kumulatif menurut tanggal berlaku paling awal, 2008–2025</p>
+    </figcaption>
+    <div class="plot-wrap"><div class="plot" id="gx-plot"></div></div>
+    <div class="fig-foot">
+      <p class="fig-note">35 kode bertanggal 1 Januari 1970 atau 1 Januari 1980 (tanggal pengganti) tidak dihitung. Sekitar 60% tanggal jatuh pada 1 Januari, sehingga ketepatannya hanya per tahun. Tabel ini mencampur seismograf dengan jenis sensor lain.</p>
+      <p class="fig-source">Sumber: Tabel stasiun BMKG (katalog_sensor.tsv), dihimpun A. K. Vigiliant, Kaggle, doi:10.34740/kaggle/ds/1934565; diunduh 28 Oktober 2026. Olahan: Hanjani &amp; Azizah.</p>
+    </div>
+  </figure>
+  <p class="reason">Gambar ini tampak membuktikan jaringan makin rapat, tetapi tabelnya mencampur seismograf dengan sensor jenis lain, tanggalnya bukan tanggal pemasangan, dan angkanya berbeda dengan jumlah sensor yang disebut BMKG. Gambar ini akan memindahkan perdebatan ke soal berapa jumlah alat, yang tidak bisa dijawab data ini. Kami menggantinya dengan Gambar 4, yang memakai ukuran dari katalog itu sendiri.</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <!-- TODO(kelompok): fill in the repository URL and the AI-use statement (course guide §6). -->
+  <p>Reproduksi: <a class="repo-link" href="#" data-todo="repo-url">{link repositori GitHub}</a></p>
+  <p>Pernyataan penggunaan AI: <span data-todo="ai-statement">{isi sesuai ketentuan bagian 6 panduan mata kuliah}</span></p>
+  <p>© 2026 Yasmina Arethaya Hanjani &amp; Cut Nabilah Nuur Azizah</p>
+</footer>
+
+<div class="sr-only" id="announcer" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scrollama@3.2.0/build/scrollama.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/easy.js"></script>
+<script src="js/g1.js"></script>
+<script src="js/g2.js"></script>
+<script src="js/g3.js"></script>
+<script src="js/g4.js"></script>
+<script src="js/g5.js"></script>
+<script src="js/g6.js"></script>
+<script src="js/gx.js"></script>
+<script src="js/tool.js"></script>
+<script>App.start();</script>
+</body>
+</html>

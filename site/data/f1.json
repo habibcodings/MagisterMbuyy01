@@ -1,0 +1,67 @@
+{
+ "years": [
+  {
+   "year": 2020,
+   "total": 8264,
+   "total_alt": null,
+   "m5plus": 244,
+   "felt": 754,
+   "damaging": 11,
+   "source_ref": "S3",
+   "note": "CNN Indonesia 30 Des 2021; M5+ ditulis 'di atas M 5'"
+  },
+  {
+   "year": 2021,
+   "total": 10570,
+   "total_alt": null,
+   "m5plus": 244,
+   "felt": 764,
+   "damaging": 23,
+   "source_ref": "S3",
+   "note": "CNN Indonesia 30 Des 2021; M5+ ditulis 'di atas M 5'"
+  },
+  {
+   "year": 2022,
+   "total": 10792,
+   "total_alt": null,
+   "m5plus": 205,
+   "felt": 807,
+   "damaging": 22,
+   "source_ref": "S4;S11",
+   "note": "Antara (total, M5+, dirasakan); merusak dari paparan Daryono/ITS 2022"
+  },
+  {
+   "year": 2023,
+   "total": 10789,
+   "total_alt": null,
+   "m5plus": 219,
+   "felt": 861,
+   "damaging": 24,
+   "source_ref": "S4;S5",
+   "note": "Antara dan Beritasatu; satu media lain menulis 10.983, tidak dipakai"
+  },
+  {
+   "year": 2024,
+   "total": 29869,
+   "total_alt": 7358.0,
+   "m5plus": 186,
+   "felt": 743,
+   "damaging": 20,
+   "source_ref": "S7;S8;S6",
+   "note": "29.869 = Kepala BMKG 17 Jan 2025; 7.358 = angka akhir tahun Direktur Gempabumi dan Tsunami 31 Des 2024; M5+, dirasakan, merusak dari rilis 31 Des 2024"
+  },
+  {
+   "year": 2025,
+   "total": 43439,
+   "total_alt": null,
+   "m5plus": 153,
+   "felt": 973,
+   "damaging": 25,
+   "source_ref": "S10",
+   "note": "kumparan 2 Jan 2026; M5+ ditulis 'M>=5'"
+  }
+ ],
+ "total_ratio": 5.26,
+ "m5_2020": 244,
+ "m5_2025": 153
+}
