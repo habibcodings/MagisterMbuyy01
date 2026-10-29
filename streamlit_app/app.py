@@ -17,7 +17,7 @@ import teks as T
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
-REPO_URL = None        # TODO(kelompok): the public GitHub repository URL
+REPO_URL = "https://github.com/habibcodings/MagisterMbuyy01"
 AI_STATEMENT = None    # TODO(kelompok): the AI-use statement (course guide §6)
 
 TOGGLED = ["hero", "g1", "g2", "g3", "g4", "g5", "g6"]    # sections with their own toggle; the bridge follows the global one

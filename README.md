@@ -4,6 +4,8 @@ Cerita data interaktif dan notebook yang dapat dijalankan ulang · Interactive d
 Visualisasi Data Lanjut (CAK7AGB4), Magister Informatika, Telkom University
 Yasmina Arethaya Hanjani & Cut Nabilah Nuur Azizah
 
+**Repositori / Repository:** https://github.com/habibcodings/MagisterMbuyy01 · **Halaman cerita / Story page:** https://habibcodings.github.io/MagisterMbuyy01/ (aktif setelah GitHub Pages dinyalakan / live once GitHub Pages is enabled)
+
 **Data:** Vigiliant, A. K. *Earthquakes in Indonesia* (katalog v2), Kaggle, doi:10.34740/kaggle/ds/1934565, dari BMKG RepoGempa; dibangun ulang dari `github.com/kekavigi/repo-gempa` pada commit `539ed6e` · rebuilt from the author's repository at commit `539ed6e`. Angka rilis BMKG / BMKG release figures: `data/release_figures_bmkg.csv` (sumber S3–S11 di / sources S3–S11 in `docs/03_storyboard.md` §7).
 
 ---
@@ -51,7 +53,7 @@ Lalu buka `http://localhost:8000`. Halaman membaca `data/*.json` lewat `fetch`, 
 1. Isi `git config user.name` dan `git config user.email` (sekali per komputer).
 2. Buat repositori **publik** di github.com, lalu commit dan push folder ini ke cabang `main`.
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**. Workflow `.github/workflows/pages.yml` menerbitkan isi `site/` setiap kali ada push ke `main`. Alamatnya `https://<user>.github.io/<repo>/`.
-4. Isi dua tempat yang masih kosong di `site/index.html` (cari `data-todo`): tautan repositori (di bagian Sumber dan footer) dan pernyataan penggunaan AI di footer.
+4. Isi pernyataan penggunaan AI di footer `site/index.html` (cari `data-todo`). Tautan repositori sudah terisi.
 
 ### Versi Streamlit
 
@@ -70,7 +72,7 @@ Menerbitkan di Streamlit Community Cloud (gratis, butuh repositori GitHub publik
 2. Buka [share.streamlit.io](https://share.streamlit.io), masuk dengan akun GitHub, pilih **Create app**.
 3. Pilih repositori, cabang `main`, dan *Main file path* `streamlit_app/app.py`. Di *Advanced settings* pilih Python 3.12. Klik **Deploy**.
 4. Alamatnya `https://<nama-pilihan>.streamlit.app`; subdomain bisa diubah di pengaturan aplikasi. Aplikasi gratis tertidur jika lama tidak dibuka dan bangun lagi saat diklik.
-5. Isi `REPO_URL` dan `AI_STATEMENT` di bagian atas `streamlit_app/app.py` (sekarang masih tampil sebagai tempat kosong).
+5. Isi `AI_STATEMENT` di bagian atas `streamlit_app/app.py` (sekarang masih tampil sebagai tempat kosong). `REPO_URL` sudah terisi.
 
 ---
 
@@ -117,7 +119,7 @@ Then open `http://localhost:8000`. The page loads `data/*.json` with `fetch`, so
 1. Set `git config user.name` and `git config user.email` (once per machine).
 2. Create a **public** repository on github.com, then commit and push this folder to `main`.
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**. `.github/workflows/pages.yml` publishes `site/` on every push to `main`. The URL is `https://<user>.github.io/<repo>/`.
-4. Fill the two placeholders in `site/index.html` (search for `data-todo`): the repository link (sources section and footer) and the AI-use statement in the footer.
+4. Fill the AI-use statement in the footer of `site/index.html` (search for `data-todo`). The repository link is already filled in.
 
 ### Streamlit version
 
@@ -141,7 +143,7 @@ Deploy on Streamlit Community Cloud (free; it needs the same public GitHub repos
 2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub and choose **Create app**.
 3. Pick the repository, branch `main`, and main file path `streamlit_app/app.py`. Under *Advanced settings*, choose Python 3.12. Click **Deploy**.
 4. The URL is `https://<chosen-name>.streamlit.app`; you can change the subdomain in the app settings. Free apps go to sleep after a while without visitors and wake up when someone opens them.
-5. Fill `REPO_URL` and `AI_STATEMENT` at the top of `streamlit_app/app.py` (they show as placeholders until then).
+5. Fill `AI_STATEMENT` at the top of `streamlit_app/app.py` (it shows as a placeholder until then). `REPO_URL` is already filled in.
 
 ### Page technology
 
