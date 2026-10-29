@@ -102,3 +102,9 @@ Earlier sessions explored other datasets (Transjakarta, then Jawa Barat disaster
 - **Asked:** prepare the commits, using the user's git username `habibcodings`.
 - **Did:** looked up the public GitHub profile `habibcodings` to get its account ID. Set a repo-local git identity: `habibcodings <142083375+habibcodings@users.noreply.github.com>`, GitHub's no-reply address, so commits link to the account without publishing a personal email; the global git config is unchanged. Checked the 102 files to be committed for size (largest 31 MB, under GitHub's limit) and credentials (none). Created seven commits on `main`, docs first: brief and storyboard, archive, notebook, exports, site, Streamlit app, README and this log. Each ends with a `Co-Authored-By: Claude` trailer. Nothing pushed.
 - **Files touched:** `.git/` (config, history), `AI_USAGE.md`.
+
+## 2026-10-29
+
+- **Asked:** push the repository to https://github.com/habibcodings/MagisterMbuyy01 and do whatever else is needed.
+- **Did:** filled the repository link placeholders with that URL (sources section and footer of `site/index.html`, `REPO_URL` in `streamlit_app/app.py`) and added the repository and Pages URLs to the README; the AI-use statement is left for the group. Re-ran the Streamlit checks (all ✓) and committed. Added the remote `origin`. This Mac had no stored GitHub login, so the push ran in the user's terminal; the user signed in there with their own personal access token (Claude did not see or handle it). GitHub now holds the 8 commits (`main` = `40b3d48`). The first GitHub Actions run of `story-page` failed at `configure-pages` because GitHub Pages is not yet enabled in the repository settings; enabling it is a repository setting for the owner.
+- **Files touched:** `site/index.html`, `streamlit_app/app.py`, `README.md`, `AI_USAGE.md`; git remote `origin`.
